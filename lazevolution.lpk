@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Package Version="5">
+    <PathDelim Value="\"/>
+    <Name Value="lazevolution"/>
+    <Type Value="RunAndDesignTime"/>
+    <CompilerOptions>
+      <Version Value="11"/>
+      <PathDelim Value="\"/>
+      <SearchPaths>
+        <IncludeFiles Value="src"/>
+        <OtherUnitFiles Value="src"/>
+        <UnitOutputDirectory Value="lib\$(TargetCPU)-$(TargetOS)\"/>
+      </SearchPaths>
+    </CompilerOptions>
+    <Files>
+      <Item>
+        <Filename Value="lazevolutionapi.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="LazEvolutionAPI"/>
+      </Item>
+      <Item>
+        <Filename Value="src\formqrcode.lfm"/>
+        <Type Value="LFM"/>
+      </Item>
+      <Item>
+        <Filename Value="src\formqrcode.pas"/>
+        <UnitName Value="FormQrCode"/>
+      </Item>
+      <Item>
+        <Filename Value="src\JsonHelpers.pas"/>
+        <UnitName Value="JsonHelpers"/>
+      </Item>
+      <Item>
+        <Filename Value="src\LazEvolutionAPIConsts.pas"/>
+        <UnitName Value="LazEvolutionAPIConsts"/>
+      </Item>
+      <Item>
+        <Filename Value="src\LazEvolutionAPIContacts.pas"/>
+        <UnitName Value="LazEvolutionAPIContacts"/>
+      </Item>
+      <Item>
+        <Filename Value="src\LazEvolutionAPIGlobals.pas"/>
+        <UnitName Value="LazEvolutionAPIGlobals"/>
+      </Item>
+      <Item>
+        <Filename Value="src\LazEvolutionAPIInstance.pas"/>
+        <UnitName Value="LazEvolutionAPIInstance"/>
+      </Item>
+      <Item>
+        <Filename Value="src\LazEvolutionAPIInstanceList.pas"/>
+        <UnitName Value="LazEvolutionAPIInstanceList"/>
+      </Item>
+      <Item>
+        <Filename Value="src\LazEvolutionAPIMediaMessage.pas"/>
+        <UnitName Value="LazEvolutionAPIMediaMessage"/>
+      </Item>
+      <Item>
+        <Filename Value="src\LazEvolutionAPIMessageReturn.pas"/>
+        <UnitName Value="LazEvolutionAPIMessageReturn"/>
+      </Item>
+      <Item>
+        <Filename Value="src\LazEvolutionAPIResponse.pas"/>
+        <UnitName Value="LazEvolutionAPIResponse"/>
+      </Item>
+      <Item>
+        <Filename Value="src\LazEvolutionAPITextMessage.pas"/>
+        <UnitName Value="LazEvolutionAPITextMessage"/>
+      </Item>
+      <Item>
+        <Filename Value="src\LazEvolutionAPIWhatsAppNumbers.pas"/>
+        <UnitName Value="LazEvolutionAPIWhatsAppNumbers"/>
+      </Item>
+      <Item>
+        <Filename Value="src\LazRestClient.pas"/>
+        <UnitName Value="LazRestClient"/>
+      </Item>
+      <Item>
+        <Filename Value="src\superdate.pas"/>
+        <UnitName Value="superdate"/>
+      </Item>
+      <Item>
+        <Filename Value="src\superobject.pas"/>
+        <UnitName Value="superobject"/>
+      </Item>
+      <Item>
+        <Filename Value="src\supertypes.pas"/>
+        <UnitName Value="supertypes"/>
+      </Item>
+      <Item>
+        <Filename Value="src\superxmlparser.pas"/>
+        <UnitName Value="superxmlparser"/>
+      </Item>
+    </Files>
+    <RequiredPkgs>
+      <Item>
+        <PackageName Value="IDEIntf"/>
+      </Item>
+    </RequiredPkgs>
+    <UsageOptions>
+      <UnitPath Value="$(PkgOutDir)"/>
+    </UsageOptions>
+    <PublishOptions>
+      <Version Value="2"/>
+      <UseFileFilters Value="True"/>
+    </PublishOptions>
+  </Package>
+</CONFIG>
