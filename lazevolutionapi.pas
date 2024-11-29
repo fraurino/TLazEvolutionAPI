@@ -71,7 +71,7 @@ procedure Register;
 
 implementation
   uses
-    LasRestClient,
+    LazRestClient,
     LazEvolutionAPIConsts,
     LazEvolutionAPIMediaMessage,
     LazEvolutionAPIMessageReturn,
