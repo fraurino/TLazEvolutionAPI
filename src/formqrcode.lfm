@@ -1,0 +1,46 @@
+object FormQrCode: TFormQrCode
+  Left = 693
+  Height = 350
+  Top = 269
+  Width = 318
+  BorderStyle = bsDialog
+  Caption = 'FormQrCode'
+  ClientHeight = 350
+  ClientWidth = 318
+  DesignTimePPI = 120
+  LCLVersion = '3.6.0.0'
+  object Image1: TImage
+    Left = 0
+    Height = 310
+    Top = 0
+    Width = 318
+    Align = alClient
+    Center = True
+    Proportional = True
+  end
+  object Panel1: TPanel
+    Left = 0
+    Height = 40
+    Top = 310
+    Width = 318
+    Align = alBottom
+    ClientHeight = 40
+    ClientWidth = 318
+    TabOrder = 0
+    object Button1: TButton
+      Left = 106
+      Height = 31
+      Top = 4
+      Width = 94
+      Caption = 'Fechar'
+      TabOrder = 0
+      OnClick = Button1Click
+    end
+  end
+  object tmrCheckConexao: TTimer
+    Interval = 5000
+    OnTimer = tmrCheckConexaoTimer
+    Left = 168
+    Top = 64
+  end
+end
