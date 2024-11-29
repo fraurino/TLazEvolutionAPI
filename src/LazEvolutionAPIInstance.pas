@@ -103,7 +103,7 @@ type
 
 implementation
   uses
-    LasRestClient,
+    LazRestClient,
     LazEvolutionAPIConsts,
     LazEvolutionAPIGlobals,
     LazEvolutionAPIResponse,
