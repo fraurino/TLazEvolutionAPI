@@ -49,11 +49,5 @@ Se você deseja contribuir para o TLazEvolutionAPI, basta enviar solicitações 
 
 Este projeto está sob a licença MIT - veja o arquivo `LICENSE.md` para detalhes.
 
-## 🎁 Expressões de gratidão
-
-- Compartilhe este projeto com outros desenvolvedores.
-- Convide alguém da equipe para um café.
-- Agradeça publicamente a todos que contribuíram!
-
 ⌨️ com ❤️ por [Carlos Eduardo Paulino] 😊
 
