@@ -25,7 +25,7 @@ implementation
   uses
     LazEvolutionAPIConsts,
     LazEvolutionAPIInstance,
-    LasRestClient;
+    LazRestClient;
 
 function Conected: Boolean;
 var
